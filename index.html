@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Games</title>
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body class="container">
+    <div id="app">
+
+    
+    <div class="header">
+        <h1>QUIZ GAMES</h1>
+        <p>Let's go!</p>
+        <p>Resposta: {{indiceResposta}}</p>
+        <p>Vidas: {{vidas}}
+
+          <div class="vidas icon-list">
+
+            <div class="cheios">
+              <i v-for="vida in vidas" class="nes-icon is-large heart"></i>
+            </div>
+                  
+            <div class="vazias">
+              <i class="nes-icon  is-large is-empty heart"></i>
+              <i class="nes-icon  is-large is-empty heart"></i>
+              <i class="nes-icon  is-large is-empty heart"></i>
+            </div>
+           
+                    
+           </div>
+        </p>
+        <br>
+       
+       
+    </div>
+  <div v-show="vidas > 0" class="quiz">
+   
+    <div class="nes-container with-title is-centered">
+        <p class="title">{{pergunta.pergunta}}</p>
+   
+        <div class="perguntas">
+            <label>
+                <input type="radio" v-model="indiceResposta" class="nes-radio" name="answer" value="1" checked />
+                <span>{{pergunta.op1}}</span>
+              </label>
+              
+              <label>
+                <input type="radio"  v-model="indiceResposta" class="nes-radio" name="answer" value="2" />
+                <span>{{pergunta.op2}}</span>
+              </label>
+
+              <label>
+                <input type="radio"  v-model="indiceResposta" class="nes-radio" name="answer" value="3" />
+                <span>{{pergunta.op3}}</span>
+              </label>
+              
+        </div>
+
+    </div>
+       
+    <div class="menu">
+        <button type="button" class="nes-btn is-warning"> ? </button>
+        <button type="button"@click="enviarResposta()" class="nes-btn is-success"
+         
+         > > </button>
+       
+    </div>
+
+    </div>
+
+    <div v-show="vidas === 0"  class="game-over">
+      <h1 class="nes-text is-error">SE FODEU!</h1>
+      <button v-on:click="jogarNovamente()" class="nes-btn is-success">Try Again</button>
+    </div>
+  
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="app.js"></script>
+</body>
+</html>

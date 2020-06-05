@@ -1,0 +1,122 @@
+[
+    {
+      "pergunta": "Qual era o nome antigo do Mario?",
+      "op1": "Luigi",
+      "op2": "Sempre foi Mario",
+      "op3": "Jumpman",
+      "opc": 3,
+      "dificuldade": 3
+    },
+    {
+      "pergunta": "No Zelda Ocarina of Time, quanto vale uma rupia verde?",
+      "op1": "5 rupias",
+      "op2": "1 rupia",
+      "op3": "50 rupias",
+      "opc": 2,
+      "dificuldade": 2
+    },
+    {
+      "pergunta": "Qual é o nome do personagem principal de Zelda Ocarina Of Time",
+      "op1": "Zelda",
+      "op2": "Mario",
+      "op3": "Link",
+      "opc": 3,
+      "dificuldade": 3
+    },
+    {
+      "pergunta": "Qual o nome do principal personagem do GTA San Andreas?",
+      "op1": "CJ",
+      "op2": "Carl Johnson",
+      "op3": "Cidney",
+      "opc": 2,
+      "dificuldade": 2
+    },
+    {
+      "pergunta": "Qual o nome do Jogo em que o Mario apareceu pela primeira vez?",
+      "op1": "Super Mario",
+      "op2": "Donkey Kong",
+      "op3": "Zelda",
+      "opc": 2,
+      "dificuldade": 2
+    },
+    {
+      "pergunta": "Qual é o maior inimigo do Mario em Super Mario Bros?",
+      "op1": "Luigi",
+      "op2": "Bowser",
+      "op3": "Pac-Man",
+      "opc": 2,
+      "dificuldade": 2
+    },
+    {
+      "pergunta": "No Pacman, qual é o fantasma que sempre pega o caminho mais curto até você?",
+      "op1": " Blinky (vermelho)",
+      "op2": " Pinky (rosa)",
+      "op3": "Clyde (laranja)",
+      "opc": 1,
+      "dificuldade": 1
+    },
+    {
+      "pergunta": "Quem é o vilão principa de GTA 3?",
+      "op1": "El Burro",
+      "op2": "Salvatore Leone",
+      "op3": "Catalina",
+      "opc": 2,
+      "dificuldade": 2
+    },
+    {
+      "pergunta": "Qual destes monstros não pega fogo de dia no Minecraft e pode aparecer a qualquer momento?",
+      "op1": " Zumbi",
+      "op2": " Creeper",
+      "op3": " Esqueleto",
+      "opc": 2,
+      "dificuldade": 2
+    },
+    {
+      "pergunta": "Em que ano o mega drive foi lançado no Brasil ?",
+      "op1": "1990",
+      "op2": "1994",
+      "op3": "1991",
+      "opc": 1,
+      "dificuldade": 1
+    },
+    {
+      "pergunta": "Qual o nome do filho do Kratos no jogo mais recente da franquia God of War?",
+      "op1": "Atreus",
+      "op2": "Perseu",
+      "op3": "Kraktos",
+      "opc": 1,
+      "dificuldade": 1
+    },
+    {
+      "pergunta": "Qual o nome da princesa no Super Mario RPG?",
+      "op1": "Daisy",
+      "op2": "Luigi",
+      "op3": "Toadstool",
+      "opc": 1,
+      "dificuldade": 1
+    },
+    {
+      "pergunta": "Como se chama os três personagens jogáveis de Final Fight 1 ?",
+      "op1": " Johnny Cage, Liu Kang, Kano",
+      "op2": "Haggar, Cody, Guy",
+      "op3": "Terry Bogard, Andy Bogard, Joe Higashi",
+      "opc": 1,
+      "dificuldade": 3
+    },
+    {
+      "pergunta": "Qual é o pricipal vilão de GTA 3",
+      "op1": "El burro",
+      "op2": "Catalina",
+      "op3": "Salvatore Leone",
+      "opc": 2,
+      "dificuldade": 2
+    },
+    {
+      "pergunta": "Qual o nome do reino onde Mario e seu irmão vivem suas aventuras?",
+      "op1": "Reino de Bowser",
+      "op2": "Reino de Peach",
+      "op3": "Reino dos cogumelos",
+      "opc": 3,
+      "dificuldade": 3
+    }
+  ]
